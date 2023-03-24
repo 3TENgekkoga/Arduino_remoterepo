@@ -3,7 +3,7 @@ a = arduino('COM3'); %通信用シリアルポートの指定
 pin = 11; %pin番号の指定
 
 a.pinMode(pin, 'output'); %指定したpinを出力モードに変更
-bl = 100; %点滅回数
+bl = 10; %点滅回数
 t = 0.1; %待ち時間[sec]
 
 for i = 1:bl
