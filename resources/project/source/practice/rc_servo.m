@@ -13,7 +13,7 @@ for i = 1:5
     pause(1);
 
     a.servoWrite(10,90-45);
-    disp('90')
+    disp('90-45')
     pause(1);
 end
 
