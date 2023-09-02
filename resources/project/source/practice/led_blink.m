@@ -1,5 +1,5 @@
 %% led_blink.m
-a = arduino('COM3'); %通信用シリアルポートの指定
+a = arduino('COM7'); %通信用シリアルポートの指定
 pin = 11; %pin番号の指定
 
 a.pinMode(pin, 'output'); %指定したpinを出力モードに変更
